@@ -1,7 +1,0 @@
-C:\Users\familia\source\repos\proyectof\proyectof\bin\Debug\proyectof.exe.config
-C:\Users\familia\source\repos\proyectof\proyectof\bin\Debug\proyectof.exe
-C:\Users\familia\source\repos\proyectof\proyectof\bin\Debug\proyectof.pdb
-C:\Users\familia\source\repos\proyectof\proyectof\obj\Debug\proyectof.csproj.AssemblyReference.cache
-C:\Users\familia\source\repos\proyectof\proyectof\obj\Debug\proyectof.csproj.CoreCompileInputs.cache
-C:\Users\familia\source\repos\proyectof\proyectof\obj\Debug\proyectof.exe
-C:\Users\familia\source\repos\proyectof\proyectof\obj\Debug\proyectof.pdb
