@@ -117,11 +117,52 @@ namespace proyectof
             return true;
         }
 
+        private static void updateData()
+        {
+
+            Console.Write("Escriba el nombre del usuario a actualizar: ");
+            var name = Console.ReadLine();
+
+
+            if (search(name))
+            {
+                Console.WriteLine("El registro existe!");
+                Console.Write("Nuevo nuero de Telefono: ");
+                var newAge = Console.ReadLine();
+
+
+                Dictionary<object, object> temp = new Dictionary<object, object>();
+                temp = readFile();
+
+                temp[name] = newAge;
+                Console.WriteLine("El registro ha sido actualizado!");
+                File.Delete(getPath());
+
+                using (StreamWriter sw = File.AppendText(getPath()))
+                {
+
+                    foreach (KeyValuePair<object, object> values in temp)
+                    {
+                        sw.WriteLine("{0}; {1}", values.Key, values.Value);
+
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("El registro no se encontro!");
+            }
+        }
+
+
+
     }
-
-
-
-
 }
+
+
+
+
+
 
 
